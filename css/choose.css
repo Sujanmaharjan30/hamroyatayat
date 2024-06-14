@@ -1,0 +1,51 @@
+@import url('cssComponents/global.css');
+@import url('cssComponents/header.css');
+@import url('cssComponents/nav.css');
+@import url('cssComponents/footer.css');
+
+
+.content {
+  padding: 20px;
+  color: black; /* Set text color to black */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 500px; /* Adjust the width as needed */
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(248, 245, 245);
+  text-align: center;
+}
+
+.card img {
+  width: 400px; /* Adjust the size to make it smaller */
+  border-radius: 20%;
+}
+
+.card h2 {
+  font-size: 18px; /* Adjust the font size for the name */
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.link-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.link-button:hover {
+  background-color: #555;
+}

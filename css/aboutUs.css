@@ -1,0 +1,52 @@
+@import url('cssComponents/global.css');
+@import url('cssComponents/header.css');
+@import url('cssComponents/nav.css');
+@import url('cssComponents/footer.css');
+
+body{
+  background: url('../images/bussy.png') center/cover no-repeat;
+}
+
+.about-us-section {
+  padding: 4rem;
+  height: 100dvh;
+  margin-top: 3.5rem;
+  background-color: rgba(167, 167, 167, 0.8);
+  backdrop-filter: blur(8px);
+  --webkit-backdrop-filter: blur(8px);
+}
+
+.about-us-section > h2 {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.about-us-section > img {
+  display: block;
+  margin: 0 auto;
+  width: 6rem;
+  height: 6rem;
+  margin-top: 1rem;
+}
+
+.about-us-section > p {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.about-us-section > .explore-now-btn {
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  border: 1px solid black;
+  transition: all 500ms ease-in-out;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-us-section > .explore-now-btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+

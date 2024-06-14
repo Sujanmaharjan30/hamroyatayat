@@ -1,0 +1,92 @@
+@import url('cssComponents/global.css');
+@import url('cssComponents/header.css');
+@import url('cssComponents/nav.css');
+@import url('cssComponents/footer.css');
+
+#card-heading{
+    text-align: center;
+  }
+  
+
+#card {
+  height: 440px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  margin-top: 100px;
+  margin-right: 40px;
+}
+
+#card-img {
+  height: 220px;
+  width: 300px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#card-heading {
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#card-paragraph {
+  margin-left: 10px;
+  margin-top: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#cards-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.book-button {
+  display: block;
+  margin: 0 auto; /* Center the button horizontally */
+  padding: 10px 20px;
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.book-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+/* Hide seats initially */
+.seats {
+  display: none;
+}
+
+/* Show seats when the card is in the active state */
+.card.active .seats {
+  display: block;
+}
+
+/* Style for the seats */
+.seats {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px; /* Adjust width as needed */
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.seats span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+

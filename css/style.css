@@ -1,0 +1,173 @@
+@import url('cssComponents/global.css');
+@import url('cssComponents/header.css');
+@import url('cssComponents/nav.css');
+@import url('cssComponents/footer.css');
+
+
+/* hero-section start */
+
+.hero-section{
+  display: block;
+  min-height: 100vh;
+  width: 100vw;
+  background: url('https://mediaim.expedia.com/destination/1/510cb51ae5042609f6f6a4af86a78928.jpg') center/cover;
+  padding: 4rem;
+  display: grid;
+  place-items: center;
+}
+/* .card-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-container h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.card-container p {
+  margin-bottom: 5px;
+}
+
+.card-container a {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+} */
+
+
+/* .hero-section > .search-bus {
+display: grid;
+grid-template-columns: repeat(4,1fr);
+} */
+
+
+/* .hero-section > .search-bus #from {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.hero-section > .search-bus input {
+  height: 4rem;
+  border: none;
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.hero-section > .search-bus input:hover {
+  background-color: rgb(236, 229, 229);
+}
+
+.hero-section > .search-bus button {
+  height: 4rem;
+  border: none; 
+  background-color: rgb(34, 193, 241);
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+} */
+
+#hmro {
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+}
+
+/* #hmrodiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin-top: 50px;
+} */
+/* @keyframes slideIn {
+  0% {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.hero-section {
+  text-align: center;
+}
+
+.hero-section h1 {
+  animation: slideIn 1s ease-out;
+} */
+
+
+#new{
+  background-color: #fff;
+  width: 150px;
+  text-align: center;
+  border-radius: 90px;
+  position: relative;
+  left: 40px;
+}
+#new:hover{
+
+  border: 2px solid black;
+}
+.form_content{
+  width: 70vw;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  background-color: rgb(255, 255, 255,0.2);
+  backdrop-filter: blur(16px);
+  --webkit-backdrop-filter: blur(16px);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 100px black;
+}
+
+.form_content content{
+  margin: 10px;
+}
+.form_content input{
+  padding: 4px;
+  margin: px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  background: none;
+  border: 1px solid black;
+  color: black;
+}
+.form_content select{
+  border-radius: 50px;
+  
+}
+#fromList {
+
+  max-height: 200px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+
+#fromList option {
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+#fromList option:checked {
+  background-color: #f0f0f0; 
+}
+
+

@@ -1,0 +1,77 @@
+/* Import global styles */
+@import url('cssComponents/global.css');
+@import url('cssComponents/header.css');
+@import url('cssComponents/nav.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://mediaim.expedia.com/destination/1/510cb51ae5042609f6f6a4af86a78928.jpg') center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero-section {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#hmro {
+  margin-bottom: 20px;
+}
+
+.form_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 450px;
+  margin: 0 auto;
+  margin-right: 150px; 
+  text-align: center; /* Center align content */
+}
+
+.content {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.content input,
+.content select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto; /* Center the button horizontally */
+  display: block; /* Ensure the button takes up the full width */
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

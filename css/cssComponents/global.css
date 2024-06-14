@@ -1,0 +1,15 @@
+/*variables css*/
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}

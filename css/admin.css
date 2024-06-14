@@ -1,0 +1,87 @@
+@import url('cssComponents/global.css');
+@import url('cssComponents/header.css');
+@import url('cssComponents/nav.css');
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.header-logo {
+  display: inline-block;
+}
+
+.header-logo h1 {
+  margin: 0;
+}
+
+main {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Your existing CSS styles here */
+
+.imgCell {
+  position: relative; /* Ensure proper positioning for fullscreen */
+  overflow: auto; /* Enable scrolling for the table cell */
+}
+
+.imgCell img {
+  max-width: 100%; /* Ensure the image fits within the cell */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Add pointer cursor to indicate clickable */
+}
+
+/* Optional: Style for fullscreen mode */
+:-webkit-full-screen .imgCell,
+:-moz-full-screen .imgCell,
+:-ms-fullscreen .imgCell,
+:fullscreen .imgCell {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.9); /* Background color for fullscreen */
+}
+
+:-webkit-full-screen .imgCell img,
+:-moz-full-screen .imgCell img,
+:-ms-fullscreen .imgCell img,
+:fullscreen .imgCell img {
+  max-width: 100%; /* Ensure the image fits within fullscreen */
+  max-height: 100%; /* Ensure the image fits within fullscreen */
+  height: auto; /* Maintain aspect ratio */
+  cursor: pointer; /* Add pointer cursor to indicate clickable */
+}
+
